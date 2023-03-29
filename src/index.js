@@ -5,7 +5,7 @@ import Navbar from './components/Navbar/Navbar';
 import Home from './pages/Home/Home';
 import ContactForm from './components/ContactForm/ContactForm';
 import Footer from './components/Footer/Footer';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes,Link } from 'react-router-dom';
 import About from './pages/About/About';
 import Success from './pages/Success/Success';
 import Services from './pages/Services/Services';
@@ -14,7 +14,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
   <BrowserRouter>
-  <h1 id='top' className='text-Principal text-5xl w-full h-20 flex items-center justify-center'>Veksten;</h1>
+  <h1 className='text-Principal text-5xl w-full h-20 flex items-center justify-center'><Link to={'/'}>Veksten;</Link></h1>
   <Navbar/>
   <Routes>
     <Route path='/' element={<Home />}/>
