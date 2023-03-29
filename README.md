@@ -10,7 +10,7 @@
 - React-Animate-On-Scroll (Animations and Transitions)
 - Swiper (Carrousels)
 
-## Features
+## Main Features
 
 - Services Page with valuable information for the clients, explainig the way that we work.
 
