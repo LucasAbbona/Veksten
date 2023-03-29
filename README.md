@@ -1,3 +1,5 @@
+// Solucionar errores en animaciones del boton de contacto en Hero y del Enviar formulario
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
